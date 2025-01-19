@@ -6,13 +6,17 @@ import { $ } from "bun";
 
 // First two arguments are unnecessary.
 const action = Bun.argv[2];
-const volume = async () => (await $`pamixer --get-volume`.text()).replace(/(\r\n|\n|\r)/gm,"");
-let value = await volume();
+const volume = async () => await $`wpctl get-volume @DEFAULT_AUDIO_SINK@`.text();
+let value: string = await volume();
+console.log(value);
+
+/* const volume = async () => (await $`pamixer --get-volume`.text()).replace(/(\r\n|\n|\r)/gm,"");
+let value.split(' ')[1]*100;
 
 // TODO: Research other(-r, -u, -h) pamixer flags.
 if (action == "up") {
-  await $`pamixer --unmute`;
-  await $`pamixer -i 3`;
+  await $`wpctl set-mute @DEFAULT_AUDIO_SOURCE@ 0`;
+  await $`wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-`;
   value = await volume();
   await $`dunstify -a "VOLUME" "${value}%" -h int:value:"${value}" -i audio-volume-high-symbolic -r 2593 -u normal`;
 }
@@ -32,4 +36,4 @@ else {
   }
   console.log("Current Volume: " + value + "%");
   await $`dunstify -a "VOLUME" "${status}" -h int:value:"${value}" -i "${icon}" -r 2593 -u normal`;
-}
+}*/

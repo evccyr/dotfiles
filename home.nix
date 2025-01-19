@@ -1,4 +1,5 @@
 {
+  config,
   pkgs,
   ...
 }: {
@@ -14,25 +15,16 @@
   # You should not change this value, even if you update Home Manager. If you do
   # want to update the value, then make sure to first check the Home Manager
   # release notes.
-  home.stateVersion = "23.11"; # Please read the comment before changing.
+  home.stateVersion = "24.11"; # Please read the comment before changing.
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = with pkgs; [
-    # GUI
     vlc
-    scrcpy
-    waybar
-    oculante
-    qbittorrent
-    tor-browser
+    vscode
+    acpi
     hyprpicker
     warp-terminal
-    protonvpn-gui
-    microsoft-edge
-    networkmanagerapplet
-
-    # CLI
     gh
     fd
     fzf
@@ -46,39 +38,16 @@
     nsxiv
     copyq
     bottom
-    fuzzel
-    zoxide
-    zathura
     ripgrep
-    starship
-    fastfetch
     wl-clipboard
     protonvpn-cli
-
-    # Miscellaneous
     bun
     dunst
-    swaybg
-    pamixer
     grimblast
-    nerdfonts
     brightnessctl
     kanata-with-cmd
-
-    # LSP
-    nil
-    taplo
-    marksman
-    slint-lsp
-    rust-analyzer
-    lua-language-server
-    yaml-language-server
-    tailwindcss-language-server
-
-    # Formatters
-    yamlfmt
-    alejandra
-    luaformatter
+    brave
+    bottom
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
@@ -110,9 +79,10 @@
   };
 
   # Home Manager can also manage your environment variables through
-  # 'home.sessionVariables'. If you don't want to manage your shell through Home
-  # Manager then you have to manually source 'hm-session-vars.sh' located at
-  # either
+  # 'home.sessionVariables'. These will be explicitly sourced when using a
+  # shell provided by Home Manager. If you don't want to manage your shell
+  # through Home Manager then you have to manually source 'hm-session-vars.sh'
+  # located at either
   #
   #  ~/.nix-profile/etc/profile.d/hm-session-vars.sh
   #
@@ -125,10 +95,14 @@
   #  /etc/profiles/per-user/yash/etc/profile.d/hm-session-vars.sh
   #
   home.sessionVariables = {
-    EDITOR = "hx";
+    EDITOR = "nvim";
   };
 
   programs = {
+    zoxide = {
+      enable = true;
+      enableFishIntegration = true;
+    };
     fish = {
       enable = true;
       plugins = [
@@ -149,6 +123,40 @@
           src = pkgs.fishPlugins.puffer.src;
         }
       ];
+      shellAliases = {
+        ls = "eza";
+        d = "z";
+        di = "zi";
+      };
+      interactiveShellInit = ''
+        # Only run this in interactive shells
+        if status is-interactive
+
+          # Set the cursor shapes for the different vi modes.
+          set fish_cursor_default     block      blink
+          set fish_cursor_insert      line       blink
+          set fish_cursor_replace_one underscore blink
+          set fish_cursor_visual      block
+
+          function fish_user_key_bindings
+            # Execute this once per mode that emacs bindings should be used in
+            fish_default_key_bindings -M insert
+            fish_vi_key_bindings --no-erase insert
+          end
+        end
+      '';
+    };
+
+    ghostty = {
+      enable = true;
+      enableFishIntegration = true;
+      settings = {
+        command = "fish";
+        font-size = 11;
+        # theme = "dark:GruvboxDarkHard,light:GruvboxLight";
+        theme = "GruvboxDarkHard";
+        # theme = "GruvboxLight";
+      };
     };
 
     direnv = {
@@ -158,16 +166,5 @@
 
     # Let Home Manager install and manage itself.
     home-manager.enable = true;
-  };
-  imports = [
-    ./stylix
-  ];
-  home.file.".config" = { 
-    source = ../.config; 
-    recursive = true; 
-  };
-  home.file."Pictures" = { 
-    source = ../Pictures; 
-    recursive = true; 
   };
 }
