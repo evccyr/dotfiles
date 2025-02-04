@@ -1,0 +1,30 @@
+# Ignore everything by default
+*
+
+# Whitelist only dotfiles
+
+# Whitelist directories
+!backgrounds/
+!fish/
+!ghostty/
+!gitui/
+!home-manager/
+!hypr/
+!nvim/
+!secrets/
+!sops/
+
+# Whitelist files inside the whitelisted directories
+!backgrounds/**
+!fish/**
+!ghostty/**
+!gitui/**
+!home-manager/**
+!hypr/**
+!nvim/**
+!secrets/**
+
+# Whitelist specific files
+!.gitignore
+!.sops.yaml
+!mimeapps.list
