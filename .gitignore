@@ -13,6 +13,8 @@
 !nvim/
 !secrets/
 !sops/
+!television/
+!kanata/
 
 # Whitelist files inside the whitelisted directories
 !backgrounds/**
@@ -23,8 +25,11 @@
 !hypr/**
 !nvim/**
 !secrets/**
+!television/**
+!kanata/**
 
 # Whitelist specific files
 !.gitignore
 !.sops.yaml
+!flake.nix
 !mimeapps.list

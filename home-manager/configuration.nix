@@ -45,6 +45,11 @@
     variant = "";
   };
 
+  services.logind.extraConfig = ''
+    HandlePowerKey=suspend
+    HandleLidSwitch=suspend
+  '';
+
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;
@@ -72,22 +77,27 @@
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
-  environment.systemPackages = with pkgs; [
-    git
-    wget
-    curl
-    fuzzel
-    neovim
-    ghostty
-    firefox
-    google-chrome
-  ];
+  environment = {
+    systemPackages = with pkgs; [
+      git
+      neovim
+    ];
+    variables = {
+      EDITOR = "nvim";
+      VISUAL = "nvim";
+    };
+  };
 
   hardware.graphics.enable = true;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
-  programs.hyprland.enable = true;
+  programs.uwsm.enable = true;
+  programs.hyprland = {
+    enable = true;
+    withUWSM = true;
+  };
+
   # programs.mtr.enable = true;
   # programs.gnupg.agent = {
   #   enable = true;

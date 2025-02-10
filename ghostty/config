@@ -1,1 +1,6 @@
-/nix/store/221cq5n059s0k7dqcwdw1j467z08s153-home-manager-files/.config/ghostty/config
+font-size = 11
+command = fish
+shell-integration = fish
+theme = light:GruvboxLight,dark:GruvboxDarkHard
+keybind = alt+j=next_tab
+keybind = alt+k=previous_tab

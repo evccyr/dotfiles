@@ -3,7 +3,7 @@
 -- TODO: tabout
 -- TODO: prserve folds throught sessions
 vim.cmd("cd " .. vim.fn.getcwd())
-vim.cmd("colorscheme catppuccin")
+vim.cmd("colorscheme gruvbox")
 vim.opt.wrap = false
 vim.opt.scrolloff = 3
 vim.opt.ignorecase = true
@@ -13,7 +13,7 @@ vim.opt.smartcase = true
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.guifont = "Cascadia_Code:h10.5"
-vim.opt.background = "dark"
+-- vim.opt.background = "light"
 
 -- for nvim-tree
 -- disable netrw at the very start of your init.lua
