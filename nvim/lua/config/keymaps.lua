@@ -12,9 +12,12 @@ map({ "n", "i", "x" }, "<c-s>", "<cmd>update<cr>", { silent = true, desc = "Save
 -- FIX
 map("n", "<leader>q", "<cmd>bp|bd#<cr>", { desc = "Close buffer; Preserve split", silent = true })
 map("n", "<leader>w", helpers.toggle_wrap, { desc = "Toggle line wrap", silent = true })
+map("n", "<leader>X", helpers.toggle_background, { desc = "Toggle background", silent = true })
 map("n", "<leader>n", "<cmd>Neotree toggle<cr>", { desc = "Toggle Neotree", noremap = true, silent = true })
 map("n", "<leader>N", "<cmd>Neotree focus<cr>", { desc = "Focus file explorer", noremap = true, silent = true })
-map("n", "<leader>o", "<cmd>Oil<cr>", { desc = "Oil", noremap = true, silent = true })
+map("n", "<leader>o", "<cmd>Oil --float<cr>", { desc = "Oil", noremap = true, silent = true })
+map("n", "<leader>O", "<cmd>Oil --float .<cr>", { desc = "Oil cwd", noremap = true, silent = true })
+map("n", "<leader>z", "<cmd>Telekasten panel<cr>", { desc = "Telekasten", noremap = true, silent = true })
 
 -- Clipboard
 map("v", "<leader>y", '"+ygv', { desc = "Copy" })

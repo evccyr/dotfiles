@@ -17,13 +17,14 @@
       };
     in pkgs.mkShell {
       packages = with pkgs; [
-        vscode-langservers-extracted
-        nil
-        lua-language-server
-        dprint
-        prettierd
         alejandra
+        dprint
+        lua-language-server
         marksman
+        nil
+        prettierd
+        stylua
+        vscode-langservers-extracted
       ];
     };
   };

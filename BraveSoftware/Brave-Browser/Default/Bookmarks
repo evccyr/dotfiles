@@ -1,0 +1,419 @@
+{
+   "checksum": "cf4140b5287c0fe448312ef42aba888d",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13381177937839502",
+               "date_last_used": "13383728124698874",
+               "guid": "ac2b4f94-00c8-4005-a5f9-ebe457437cc9",
+               "id": "14",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "emsigner arrow uat",
+               "type": "url",
+               "url": "https://emsigner-uat-arrow.azurewebsites.net/"
+            }, {
+               "date_added": "13381566622205242",
+               "date_last_used": "0",
+               "guid": "33ba32df-3738-4ae8-ad54-d51731dba80c",
+               "id": "36",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "emsigner repo",
+               "type": "url",
+               "url": "https://epsolutionsinc.visualstudio.com/empower/_git/emSigner-Angular"
+            }, {
+               "date_added": "13382366371737826",
+               "date_last_used": "0",
+               "guid": "c2d67435-5535-4359-be36-709433cdb1ee",
+               "id": "42",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "icon search",
+               "type": "url",
+               "url": "https://fontawesome.com/search"
+            }, {
+               "date_added": "13382778838306464",
+               "date_last_used": "0",
+               "guid": "c277ff09-173f-4933-a270-a9f7676489a5",
+               "id": "46",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "yep",
+               "type": "url",
+               "url": "https://emsigner-yep-uat.azurewebsites.net/"
+            }, {
+               "date_added": "13383037925935183",
+               "date_last_used": "0",
+               "guid": "693db781-f1bb-4e70-9ae0-44c7e852a945",
+               "id": "54",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "emsigner issues",
+               "type": "url",
+               "url": "https://epsolutionsinc.visualstudio.com/empower/_workitems/edit/12723"
+            }, {
+               "date_added": "13383140742234895",
+               "date_last_used": "0",
+               "guid": "275a0a1c-b40f-4f26-98a6-1cfcf9841caa",
+               "id": "57",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "outlook",
+               "type": "url",
+               "url": "https://outlook.office365.com/mail/"
+            }, {
+               "date_added": "13383151257552931",
+               "date_last_used": "0",
+               "guid": "6508b811-62d6-4907-9829-b51804d1e6fd",
+               "id": "58",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "emsigner dev",
+               "type": "url",
+               "url": "https://emsigner-dev.eroms.works/"
+            }, {
+               "date_added": "13383313744623694",
+               "date_last_used": "0",
+               "guid": "b595d023-e11e-403c-b6a4-a2845b162bd5",
+               "id": "63",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "eroms:::Alliance",
+               "type": "url",
+               "url": "https://uat-alliance.eroms.works/#/starters/searchAccount"
+            }, {
+               "date_added": "13383383261710621",
+               "date_last_used": "0",
+               "guid": "e197378d-91bb-40cd-a3ca-c807acc2cd07",
+               "id": "65",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "work items",
+               "type": "url",
+               "url": "https://epsolutionsinc.visualstudio.com/empower/_workitems/recentlyupdated/"
+            } ],
+            "date_added": "13381178564907454",
+            "date_last_used": "0",
+            "date_modified": "13384546441088048",
+            "guid": "c3e7da5f-899d-402c-bd9f-cce096c57aa1",
+            "id": "16",
+            "name": "work",
+            "type": "folder"
+         }, {
+            "date_added": "13381079569810934",
+            "date_last_used": "13381178579410421",
+            "guid": "632ce862-87b4-475c-a533-dd8372ffc815",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "noogle",
+            "type": "url",
+            "url": "https://noogle.dev/"
+         }, {
+            "date_added": "13381090259488170",
+            "date_last_used": "13381178494609776",
+            "guid": "371efacd-855e-4530-b857-663ce8f3a048",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Mara",
+            "type": "url",
+            "url": "https://marabos.nl/"
+         }, {
+            "date_added": "13381173867216913",
+            "date_last_used": "0",
+            "guid": "4907750c-ed52-44ca-b415-3442b1d1b037",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "fasterthanlime",
+            "type": "url",
+            "url": "https://fasterthanli.me/"
+         }, {
+            "date_added": "13381094658851830",
+            "date_last_used": "0",
+            "guid": "bc362118-d480-48b2-8d2f-723aef58bb81",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "nix",
+            "type": "url",
+            "url": "https://nix.dev/"
+         }, {
+            "date_added": "13381178640830609",
+            "date_last_used": "13382920552172795",
+            "guid": "8bcea863-7648-41fd-9571-54f43f4c0950",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Hashimoto",
+            "type": "url",
+            "url": "https://mitchellh.com/writing"
+         }, {
+            "date_added": "13381178665021475",
+            "date_last_used": "13382920527454479",
+            "guid": "96a73e5e-d15e-497d-b7de-1113ba32c325",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Andrew",
+            "type": "url",
+            "url": "https://andrewkelley.me/"
+         }, {
+            "date_added": "13381178685090787",
+            "date_last_used": "13382920544036286",
+            "guid": "4c144d06-5f6c-4055-81d3-f02c64d8ef73",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Jarred",
+            "type": "url",
+            "url": "https://jarredsumner.com/"
+         }, {
+            "date_added": "13381179409430902",
+            "date_last_used": "0",
+            "guid": "9b3611c4-c465-4442-81be-51946f2302b6",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "svelte",
+            "type": "url",
+            "url": "https://svelte.dev/"
+         }, {
+            "date_added": "13381188473920747",
+            "date_last_used": "0",
+            "guid": "dd59fa94-50aa-4ba2-b297-e26f3232b1a2",
+            "id": "23",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Discord",
+            "type": "url",
+            "url": "https://discord.com/channels/@me"
+         }, {
+            "date_added": "13381273039597391",
+            "date_last_used": "0",
+            "guid": "eb0119a4-38fa-4f32-ba17-ca62f96ca778",
+            "id": "25",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "zig ref",
+            "type": "url",
+            "url": "https://ziglang.org/documentation/master/"
+         }, {
+            "date_added": "13381275404365060",
+            "date_last_used": "0",
+            "guid": "7d7e731c-f631-43e3-8454-17577dfd2f9d",
+            "id": "26",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Element",
+            "type": "url",
+            "url": "https://app.element.io/"
+         }, {
+            "date_added": "13381429157586310",
+            "date_last_used": "0",
+            "guid": "24c1d711-7978-46f1-a4a4-3b5c498d575b",
+            "id": "30",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "codepen",
+            "type": "url",
+            "url": "https://codepen.io/pen"
+         }, {
+            "date_added": "13381435289732054",
+            "date_last_used": "0",
+            "guid": "6099666b-4585-4a3c-8b96-15b7905c4632",
+            "id": "31",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "regex101",
+            "type": "url",
+            "url": "https://regex101.com/"
+         }, {
+            "date_added": "13381435337633099",
+            "date_last_used": "0",
+            "guid": "d726da8a-7097-4ce1-9e2b-cf12c40e432e",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "sed",
+            "type": "url",
+            "url": "https://sed.js.org/"
+         }, {
+            "date_added": "13381494006537096",
+            "date_last_used": "13381494014739206",
+            "guid": "e07fed23-7add-4e3c-87b4-285b87f73cf2",
+            "id": "34",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "handbook",
+            "type": "url",
+            "url": "file:///home/yash/downloads/handbook.pdf"
+         }, {
+            "date_added": "13381566367964269",
+            "date_last_used": "0",
+            "guid": "de98cfce-d818-4c78-8918-b77ceebdbbfa",
+            "id": "35",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Conventional Commits",
+            "type": "url",
+            "url": "https://www.conventionalcommits.org/en/v1.0.0/#specification"
+         }, {
+            "date_added": "13381570356650500",
+            "date_last_used": "0",
+            "guid": "ade51a9d-57af-487b-a334-b39d73d8a0f5",
+            "id": "37",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "mitchellh dotfiles",
+            "type": "url",
+            "url": "https://github.com/mitchellh/nixos-config"
+         }, {
+            "date_added": "13382733462996314",
+            "date_last_used": "0",
+            "guid": "857acf5b-97aa-4ab4-9554-eb58f165014f",
+            "id": "44",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "zettelkasten",
+            "type": "url",
+            "url": "https://zettelkasten.de/overview/"
+         }, {
+            "date_added": "13382899297897051",
+            "date_last_used": "0",
+            "guid": "721bbeeb-41a2-4c98-b81f-08aa8cd7ae3f",
+            "id": "48",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "zig std",
+            "type": "url",
+            "url": "https://ziglang.org/documentation/master/std/"
+         }, {
+            "date_added": "13382913538753638",
+            "date_last_used": "0",
+            "guid": "eee19ec8-da16-4429-b0fa-1dc4ecfb70c6",
+            "id": "49",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Karl Seguin",
+            "type": "url",
+            "url": "https://www.openmymind.net/"
+         }, {
+            "date_added": "13382347915713034",
+            "date_last_used": "13382920483153363",
+            "guid": "f5fc2a40-32e7-4035-a00f-bae9d999a52b",
+            "id": "41",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "textobjects nvim",
+            "type": "url",
+            "url": "https://github.com/echasnovski/mini.ai"
+         }, {
+            "date_added": "13382949292393726",
+            "date_last_used": "0",
+            "guid": "8423fdcf-1f69-4a16-b66b-c182cec7aa4d",
+            "id": "50",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "keep",
+            "type": "url",
+            "url": "https://keep.google.com/"
+         }, {
+            "date_added": "13383180796102812",
+            "date_last_used": "0",
+            "guid": "59226fa6-3959-4c28-a253-1aa8917f3257",
+            "id": "60",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "justin dotfiles",
+            "type": "url",
+            "url": "https://github.com/justinmdickey/publicdots"
+         }, {
+            "date_added": "13384546441088048",
+            "date_last_used": "0",
+            "guid": "5673bd4b-496b-43eb-8e1e-414faaebd8ef",
+            "id": "67",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "zettelkasten",
+            "type": "url",
+            "url": "https://zettelkasten.de/introduction/"
+         }, {
+            "date_added": "13384546527651225",
+            "date_last_used": "0",
+            "guid": "f990d7c6-206f-40fe-8de6-8430f627be36",
+            "id": "68",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "striver",
+            "type": "url",
+            "url": "https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems"
+         } ],
+         "date_added": "13381078088450785",
+         "date_last_used": "0",
+         "date_modified": "13384546527651225",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13381078088450790",
+         "date_last_used": "0",
+         "date_modified": "13381178439046220",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13381078088450793",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -13,6 +13,7 @@ if status is-interactive
     fish_default_key_bindings -M insert
     fish_vi_key_bindings --no-erase insert
     for mode in default insert
+        bind -M $mode \ee 'nvim .'
         bind -M $mode \ey 'yazi'
         bind -M $mode \eg 'gitui'
         bind -M $mode \cr tv_shell_history

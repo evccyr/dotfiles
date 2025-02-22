@@ -12,7 +12,7 @@ return {
 			home = "/home/yash/personal/notes", -- path to main notes folder
 			dailies = "/home/yash/personal/notes/daily", -- path to daily notes
 			weeklies = "/home/yash/personal/notes/weekly", -- path to weekly notes
-			templates = "/home/yash/personal/notes/templ", -- path to templates
+			templates = "/home/yash/personal/notes/templates", -- path to templates
 
 			-- Specific note templates
 			-- set to `nil` or do not specify if you do not want a template
@@ -116,10 +116,10 @@ return {
 			},
 
 			vaults = {
-				personal = {
+				-- personal = {
 					-- configuration for personal vault. E.g.:
 					-- home = "/home/user/vaults/personal",
-				},
+				-- },
 			},
 
 			-- Specify a clipboard program to use

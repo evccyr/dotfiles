@@ -8,9 +8,9 @@
 
   stylix = {
     enable = true;
-    polarity = "light";
-    base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-light-soft.yaml";
-    # base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-dark-hard.yaml";
+    polarity = "dark";
+    # base16Scheme = "${pkgs.base16-schemes}/share/themes/catppuccin-latte.yaml";
+    base16Scheme = "${pkgs.base16-schemes}/share/themes/catppuccin-mocha.yaml";
     image = ../backgrounds/background.jpg;
   };
 
@@ -84,7 +84,6 @@
       tldr
       unzip
       vlc
-      vscode
       wl-clipboard
       yazi
       zip

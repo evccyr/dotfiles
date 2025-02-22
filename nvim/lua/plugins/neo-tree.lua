@@ -10,7 +10,10 @@ return {
 	config = function()
 		local neo_tree = require("neo-tree")
 		neo_tree.setup({
-			window = { position = "right" },
+			window = { position = "float" },
+			filesystem = {
+				hijack_netrw_behavior = "disabled",
+			},
 		})
 	end,
 }

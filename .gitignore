@@ -31,5 +31,11 @@
 # Whitelist specific files
 !.gitignore
 !.sops.yaml
+!.profile
 !flake.nix
+!flake.lock
 !mimeapps.list
+# !BraveSoftware/
+# !BraveSoftware/Brave-Browser/
+# !BraveSoftware/Brave-Browser/Default/
+# !BraveSoftware/Brave-Browser/Default/Bookmarks
